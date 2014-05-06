@@ -17,7 +17,6 @@ public class AngularTest extends SeleniumTest {
   public void display_hello_world() {
     goTo("/");
 
-    find(".jumbotron h1").should().contain("Hello, world!");
-    find(".jumbotron p").should().contain("This is a very basic sample of web application");
+    // TODO
   }
 }
